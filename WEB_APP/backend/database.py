@@ -6,7 +6,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # MongoDB Connection Details
-MONGO_URI = "mongodb+srv://dangquangnhat1504_db_user:1@airqualitystatistics.gxetykt.mongodb.net/?appName=AirQualityStatistics"
+MONGO_URI = ""
 DB_NAME = "air_quality_hcmc"
 
 def get_mongo_client():
