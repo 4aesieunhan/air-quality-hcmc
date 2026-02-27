@@ -1,0 +1,3017 @@
+[
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2022,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2022,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2022,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2022,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2022,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2023,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2023,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2023,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2023,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2023,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2022,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2024,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2024,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2022,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2024,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2024,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2024,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2025,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2023,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2025,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2025,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2023,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2025,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2026,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2025,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2024,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2026,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2026,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2024,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2026,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2026,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2025,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2022,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2022,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2025,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2022,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2022,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2022,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2023,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2023,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2026,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2023,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/hem-108-tran-van-quang",
+    "year": 2026,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2023,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2023,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2024,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2024,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2022,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2024,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2022,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2024,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2024,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2025,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2025,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2023,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2023,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2025,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2025,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2025,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2024,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2026,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2026,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2026,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2024,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2026,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2026,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2022,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2022,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2025,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2022,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2025,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2022,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2022,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2023,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2023,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2026,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2023,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/tp-ho-chi-minh-duong-nguyen-van-tao",
+    "year": 2026,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2023,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2023,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2022,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2024,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2024,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2024,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2022,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2024,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2024,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2025,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2025,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2023,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2023,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2025,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2025,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2025,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2026,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2026,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2024,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2024,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2026,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2026,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2026,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2022,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2025,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2022,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2025,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2022,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2022,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2022,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2026,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2023,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2023,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2023,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/ho-chi-minh-city-us-consulate",
+    "year": 2026,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2023,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2023,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2024,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2022,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2024,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2024,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2024,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2022,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2024,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2023,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2025,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2025,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2025,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2023,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2025,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2025,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2026,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2026,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2024,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2026,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2024,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2026,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2026,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2022,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2025,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2022,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2022,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2022,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2025,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2022,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2023,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2023,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2023,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2026,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/duong-ngo-quang-tham",
+    "year": 2026,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2023,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2023,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2024,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2024,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2024,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2022,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2022,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2024,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2024,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2025,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2023,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2025,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2025,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2025,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2023,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2025,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2026,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2026,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2026,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2024,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2024,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2026,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2026,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2025,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2022,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2022,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2022,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2025,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2022,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2022,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2023,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2026,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2023,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2023,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-tt-van-hoa-huyen-can-giuoc",
+    "year": 2026,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2023,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2023,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2024,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2022,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2024,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2022,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2024,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2024,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2024,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2025,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2025,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2023,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2025,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2025,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2023,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2025,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2026,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2024,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2026,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2026,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2024,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2026,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2026,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2025,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2022,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2022,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2022,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2022,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2025,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2022,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2023,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2026,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2023,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2023,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ho-chi-minh/ho-chi-minh-city/long-an-xa-duc-lap-ha",
+    "year": 2026,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2023,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2023,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2024,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2024,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2022,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2024,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2022,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2024,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2024,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2025,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2025,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2023,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2025,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2023,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2025,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2025,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2026,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2026,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2024,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2024,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2026,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2026,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2026,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2022,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2022,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2025,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2022,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2025,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2022,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2022,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2023,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2023,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2026,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2023,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/binh-duong/thanh-pho-thu-dau-mot/hiep-thanh",
+    "year": 2026,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2023,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2023,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2022,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2024,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2024,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2022,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2024,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2024,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2024,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2025,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2023,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2025,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2025,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2023,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2025,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2025,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2026,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2024,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2026,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2026,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2026,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2024,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2026,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2022,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2025,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2022,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2025,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2022,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2022,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2022,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2023,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2023,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2023,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2026,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/thanh-pho-ba-ria/phuoc-hiep",
+    "year": 2026,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2023,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2023,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2024,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2024,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2024,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2022,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2022,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2024,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2024,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2025,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2023,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2025,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2023,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2025,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2025,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2025,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2026,
+    "sensor": "CO",
+    "candidates": [
+      "co"
+    ],
+    "error": "All candidates failed: ['co'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2024,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2026,
+    "sensor": "SO2",
+    "candidates": [
+      "so2"
+    ],
+    "error": "All candidates failed: ['so2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2026,
+    "sensor": "NO2",
+    "candidates": [
+      "no2"
+    ],
+    "error": "All candidates failed: ['no2'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2024,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2026,
+    "sensor": "O3",
+    "candidates": [
+      "o3"
+    ],
+    "error": "All candidates failed: ['o3'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2026,
+    "sensor": "PM10",
+    "candidates": [
+      "pm10"
+    ],
+    "error": "All candidates failed: ['pm10'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2025,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2025,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2026,
+    "sensor": "PM2.5",
+    "candidates": [
+      "pm25",
+      "pm2.5",
+      "pm2_5"
+    ],
+    "error": "All candidates failed: ['pm25', 'pm2.5', 'pm2_5'] | last_err=status!=1 | keys=['status', 'msg']"
+  },
+  {
+    "slug": "vietnam/ba-ria-vung-tau/vung-tau/phuong-7",
+    "year": 2026,
+    "sensor": "AQI",
+    "candidates": [
+      "aqi",
+      "AQI-IN",
+      "aqi-in"
+    ],
+    "error": "All candidates failed: ['aqi', 'AQI-IN', 'aqi-in'] | last_err=status!=1 | keys=['status', 'msg']"
+  }
+]
