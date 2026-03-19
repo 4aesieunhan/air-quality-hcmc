@@ -1,3 +1,4 @@
-models/ 
+predict_model/models/ 
 __pycache__/ 
+*.zip 
 *.csv 
