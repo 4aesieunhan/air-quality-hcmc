@@ -264,9 +264,15 @@ st.markdown("""
 # ══════════════════════════════════════════════════════════════════
 #  TAB SWITCHER
 # ══════════════════════════════════════════════════════════════════
+# Neu co flag chuyen tab tu ben trong (vi du: nut map o Dashboard)
+# phai set truoc khi render radio
+TAB_OPTIONS = ["🗺️ Live Map", "📊 Dashboard", "🔬 EDA", "🔮 Forecast"]
+if st.session_state.get("_switch_tab"):
+    st.session_state["main_tab"] = st.session_state.pop("_switch_tab")
+
 tab = st.radio(
     "",
-    ["🗺️ Live Map", "📊 Dashboard", "🔬 EDA"],
+    TAB_OPTIONS,
     horizontal=True,
     label_visibility="collapsed",
     key="main_tab",
@@ -337,12 +343,20 @@ elif tab == "📊 Dashboard":
 # ══════════════════════════════════════════════════════════════════
 #  TAB 3 — EDA
 # ══════════════════════════════════════════════════════════════════
-else:
+elif tab == "🔬 EDA":
     from app_logic import render_eda
     render_eda()
 
 
 # ══════════════════════════════════════════════════════════════════
+#  TAB 4 — FORECAST
+# ══════════════════════════════════════════════════════════════════
+elif tab == "🔮 Forecast":
+    from app_logic import render_forecast
+    render_forecast()
+
+
+# ══════════════════════════════════════════════════════════════
 #  FOOTER
 # ══════════════════════════════════════════════════════════════════
 # st.markdown("""

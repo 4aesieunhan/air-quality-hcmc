@@ -357,7 +357,7 @@ def render_station_eda(df_st_full, station_name, df_city_full):
     with c2:
         with st.container(border=True):
             st.markdown('<p class="cp-title">🕸️ Pollutant Profile vs City Avg</p>', unsafe_allow_html=True)
-            st.markdown('<p class="cp-sub">Chuẩn hóa theo trung bình toàn mạng lưới</p>', unsafe_allow_html=True)
+            st.markdown('<p class="cp-sub">Chuan hoa theo trung binh toan mang luoi</p>', unsafe_allow_html=True)
             fig_r = chart_radar(df_st_full, station_name)
             if fig_r.data: st.plotly_chart(fig_r, use_container_width=True, config=_CFG,
                                             key=f"radar_{station_name}")
@@ -368,7 +368,7 @@ def render_station_eda(df_st_full, station_name, df_city_full):
     with c3:
         with st.container(border=True):
             st.markdown('<p class="cp-title">🎯 AQI Frequency</p>', unsafe_allow_html=True)
-            st.markdown('<p class="cp-sub">Phân bố số ngày theo mức AQI</p>', unsafe_allow_html=True)
+            st.markdown('<p class="cp-sub">Phan bo so ngay theo muc AQI</p>', unsafe_allow_html=True)
             fig_fr = chart_aqi_freq(df_s)
             if fig_fr.data: st.plotly_chart(fig_fr, use_container_width=True, config=_CFG,
                                              key=f"freq_{station_name}")
@@ -376,7 +376,7 @@ def render_station_eda(df_st_full, station_name, df_city_full):
     with c4:
         with st.container(border=True):
             st.markdown('<p class="cp-title">🔗 Correlation Matrix</p>', unsafe_allow_html=True)
-            st.markdown('<p class="cp-sub">Pearson r — xanh = tương quan thuận · do = nghịch chiều</p>',
+            st.markdown('<p class="cp-sub">Pearson r — xanh = tuong quan thuan · do = nghich chieu</p>',
                         unsafe_allow_html=True)
             fig_cm = chart_corr_matrix(df_s)
             if fig_cm.data: st.plotly_chart(fig_cm, use_container_width=True, config=_CFG,
@@ -393,7 +393,7 @@ def render_station_eda(df_st_full, station_name, df_city_full):
         return result
 
     all_avail = _avail_cols(df_s)
-    st.markdown('<p class="sec-head">📊 Diễn biến từng chỉ số theo thời gian</p>', unsafe_allow_html=True)
+    st.markdown('<p class="sec-head">📊 Dien bien tung chi so theo thoi gian</p>', unsafe_allow_html=True)
     if len(all_avail) > 0:
         tabs = st.tabs([_DISP.get(c, c) for c in all_avail])
         for tab_obj, col_name in zip(tabs, all_avail):
@@ -418,8 +418,8 @@ def render_station_eda(df_st_full, station_name, df_city_full):
 
     # ROW 5: Normalized overlay
     with st.container(border=True):
-        st.markdown('<p class="cp-title">📉 Tổng hợp tất cả chỉ số (normalized 0–1)</p>', unsafe_allow_html=True)
-        st.markdown('<p class="cp-sub">Chuẩn hóa để so sánh biến thiên tương đối — hover để xem giá trị gốc</p>',
+        st.markdown('<p class="cp-title">📉 Tong hop tat ca chi so (normalized 0–1)</p>', unsafe_allow_html=True)
+        st.markdown('<p class="cp-sub">Chuan hoa de so sanh bien thien tuong doi — hover de xem gia tri goc</p>',
                     unsafe_allow_html=True)
         fig_all = chart_all_pollutants(df_s)
         if fig_all.data: st.plotly_chart(fig_all, use_container_width=True, config=_CFG,
@@ -442,14 +442,14 @@ def render_city_eda(df_city, df_st):
     with c1:
         with st.container(border=True):
             st.markdown('<p class="cp-title">📈 City AQI Trend</p>', unsafe_allow_html=True)
-            st.markdown('<p class="cp-sub">Daily AQI + 7-day rolling average · Nguồn: AQICN</p>', unsafe_allow_html=True)
+            st.markdown('<p class="cp-sub">Daily AQI + 7-day rolling average · Nguon: AQICN</p>', unsafe_allow_html=True)
             fig_t = chart_trend(df_city)
             if fig_t.data: st.plotly_chart(fig_t, use_container_width=True, config=_CFG, key="eda_city_trend")
             else: st.info("Khong co du lieu.")
     with c2:
         with st.container(border=True):
             st.markdown('<p class="cp-title">🎯 AQI Frequency</p>', unsafe_allow_html=True)
-            st.markdown('<p class="cp-sub">Phân bố số ngày theo mức AQI</p>', unsafe_allow_html=True)
+            st.markdown('<p class="cp-sub">Phan bo so ngay theo muc AQI</p>', unsafe_allow_html=True)
             fig_fr = chart_aqi_freq(df_city)
             if fig_fr.data: st.plotly_chart(fig_fr, use_container_width=True, config=_CFG, key="eda_city_freq")
             else: st.info("Khong co du lieu.")
@@ -473,7 +473,7 @@ def render_city_eda(df_city, df_st):
     # FIX 3: Boxplot full-width (khong nam trong column) de du chieu cao cho 12 tram
     with st.container(border=True):
         st.markdown('<p class="cp-title">📦 AQI Distribution by Station</p>', unsafe_allow_html=True)
-        st.markdown('<p class="cp-sub">Median, IQR and outliers per station — sắp xếp theo median giảm dần</p>',
+        st.markdown('<p class="cp-sub">Median, IQR and outliers per station — sap xep theo median giam dan</p>',
                     unsafe_allow_html=True)
         if not df_st.empty and df_st["AQI"].notna().sum() > 0:
             st.plotly_chart(chart_boxplot(df_st), use_container_width=True, config=_CFG, key="eda_city_boxplot")
@@ -487,7 +487,7 @@ def render_city_eda(df_city, df_st):
             st.plotly_chart(chart_missing(df_st), use_container_width=True, config=_CFG, key="eda_city_missing")
         else: st.info("Khong co du lieu.")
 
-    poll_choice = st.selectbox("Chỉ số theo thời gian", ["AQI"] + NON_AQI,
+    poll_choice = st.selectbox("Chi so theo thoi gian", ["AQI"] + NON_AQI,
                                format_func=lambda c: _DISP.get(c,c), key="city_poll")
     with st.container(border=True):
         st.markdown(f'<p class="cp-title">{_DISP.get(poll_choice,poll_choice)} Time Series – City Level</p>',
@@ -513,7 +513,7 @@ def render_dashboard():
 
     st.markdown("""<div class="hero">
       <h1>Ho Chi Minh City — Dashboard</h1>
-      <p>Dữ liệu lịch sử AQI 2022–2026 · Nguồn: AQICN </p>
+      <p>Dữ liệu AQI 2022–2026 · Nguồn: AQICN · CSV</p>
     </div>""", unsafe_allow_html=True)
 
     st.markdown('<p class="sec-head" style="margin-top:0">Bộ lọc thời gian</p>', unsafe_allow_html=True)
@@ -577,64 +577,49 @@ def render_dashboard():
                 bg_css = f"background:url('data:image/png;base64,{b64}') center/cover no-repeat"
             else:
                 bg_css = "background:linear-gradient(160deg,#bfdbfe 0%,#dbeafe 40%,#e0f2fe 100%)"
-            components.html(f"""
-            <style>
-              body {{ margin:0; padding:0; font-family:Inter,sans-serif; }}
-              .card {{
-                width:100%; height:340px; border-radius:10px; overflow:hidden;
-                {bg_css};
-                position:relative; cursor:pointer;
-                border:1px solid #e2e8f0;
-              }}
-              .overlay {{
-                position:absolute; inset:0;
-                background:linear-gradient(to top,rgba(0,0,0,0.35) 0%,transparent 55%);
-              }}
-              .pin-group {{
-                position:absolute; top:50%; left:50%;
-                transform:translate(-50%,-55%);
-                display:flex; flex-direction:column; align-items:center; gap:6px;
-              }}
-              .map-icon {{ font-size:52px; filter:drop-shadow(0 2px 6px rgba(0,0,0,0.2)); }}
-              .city-name {{
-                font-size:14px; font-weight:800; color:#1e3a8a;
-                background:rgba(255,255,255,0.92);
-                padding:4px 14px; border-radius:20px;
-                box-shadow:0 2px 8px rgba(0,0,0,0.12);
-              }}
-              .badges {{ display:flex; gap:5px; }}
-              .badge {{
-                font-size:9px; font-weight:700; padding:2px 9px;
-                border-radius:10px; color:#fff;
-              }}
-              .btn-wrap {{
-                position:absolute; bottom:14px; left:50%; transform:translateX(-50%);
-              }}
-              .btn {{
-                background:rgba(37,99,235,0.92); color:#fff;
-                font-size:12px; font-weight:700; padding:7px 22px;
-                border-radius:20px; text-decoration:none; display:inline-block;
-                box-shadow:0 2px 8px rgba(0,0,0,0.25); letter-spacing:0.3px;
-              }}
-            </style>
-            <div class="card">
-              <div class="overlay"></div>
-              <div class="pin-group">
-                
-                <div class="city-name">HCMC</div>
-                <div class="badges">
-                  <span class="badge" style="background:#16a34a">● Good</span>
-                  <span class="badge" style="background:#ca8a04">● Moderate</span>
-                  <span class="badge" style="background:#ea580c">● USG</span>
+
+            st.markdown(f"""
+            <div style="width:100%;height:290px;border-radius:10px;overflow:hidden;
+                 {bg_css};position:relative;border:1px solid #e2e8f0;margin-bottom:8px">
+              <div style="position:absolute;inset:0;
+                   background:linear-gradient(to top,rgba(0,0,0,0.35) 0%,transparent 55%)"></div>
+              <div style="position:absolute;top:50%;left:50%;
+                   transform:translate(-50%,-60%);
+                   display:flex;flex-direction:column;align-items:center;gap:6px">
+                <div style="font-size:48px;filter:drop-shadow(0 2px 6px rgba(0,0,0,0.2))">📍</div>
+                <div style="font-size:15px;font-weight:700;color:#1e3a8a;
+                     background:rgba(255,255,255,0.92);padding:4px 16px;border-radius:20px;
+                     box-shadow:0 2px 8px rgba(0,0,0,0.12);
+                     font-family:Georgia,serif;letter-spacing:0.5px;font-style:italic">
+                  TP. Hồ Chí Minh
+                </div>
+                <div style="display:flex;gap:5px">
+                  <span style="font-size:9px;font-weight:700;padding:2px 9px;border-radius:10px;color:#fff;background:#16a34a">● Good</span>
+                  <span style="font-size:9px;font-weight:700;padding:2px 9px;border-radius:10px;color:#fff;background:#ca8a04">● Moderate</span>
+                  <span style="font-size:9px;font-weight:700;padding:2px 9px;border-radius:10px;color:#fff;background:#ea580c">● USG</span>
                 </div>
               </div>
-              <div class="btn-wrap">
-                <a class="btn" href="javascript:window.parent.postMessage({{type:'streamlit:setComponentValue',value:'goto_map'}},'*')">
-                  🗺️ Xem bản đồ đầy đủ →
-                </a>
-              </div>
             </div>
-            """, height=350, scrolling=False)
+            """, unsafe_allow_html=True)
+
+            st.markdown("""
+            <a href="/" target="_self" onclick="
+              fetch('/_stcore/health').then(()=>{
+                window.location.href='/?main_tab=live';
+              });
+            " style="display:block;text-align:center;background:#2563eb;color:#fff;
+              font-size:13px;font-weight:700;padding:10px 20px;border-radius:20px;
+              text-decoration:none;margin-top:4px;
+              box-shadow:0 2px 8px rgba(37,99,235,0.3)">
+              🗺️ Xem bản đồ đầy đủ →
+            </a>
+            """, unsafe_allow_html=True)
+
+            # if st.button("🗺️ Xem bản đồ đầy đủ →",
+            #              use_container_width=True,
+            #              key="goto_livemap"):
+            #     st.session_state["_switch_tab"] = "🗺️ Live Map"
+            #     st.rerun()
 
     st.markdown('<p class="sec-head">Monitoring Stations</p>', unsafe_allow_html=True)
     stations = df_sf["station_name"].unique().tolist()
@@ -669,7 +654,7 @@ def render_dashboard():
 
     st.divider()
     st.markdown('<p class="sec-head">Station Detail View</p>', unsafe_allow_html=True)
-    sel = st.selectbox("Chọn Trạm", stations, key="det_stn")
+    sel = st.selectbox("Chọn trạm", stations, key="det_stn")
     if sel:
         d1, d2 = st.columns([2, 1])
         with d1:
@@ -708,22 +693,22 @@ def render_dashboard():
 
     STATION_INFO = [
         # ── CORE: HCM nội thành / ngoại thành ──
-        {"name": "Hẻm 108 Trần Văn Quang",               "area": "Quận Tân Bình, TP.HCM",            "lat": "10.7799", "lng": "106.6470", "type": "Nội thành"},
+        {"name": "Hem 108 Tran Van Quang",               "area": "Quận Tân Bình, TP.HCM",            "lat": "10.7799", "lng": "106.6470", "type": "Nội thành"},
         {"name": "Ho Chi Minh City US Consulate",        "area": "Quận 1, TP.HCM",                   "lat": "10.7830", "lng": "106.7010", "type": "Nội thành"},
-        {"name": "Đường Ngô Quang Thám",                 "area": "TP. Thủ Đức, TP.HCM",             "lat": "10.6580", "lng": "106.7240", "type": "Nội thành"},
-        {"name": "Đường Nguyễn Văn Tạo",                 "area": "Huyện Nhà Bè, TP.HCM",             "lat": "10.6596", "lng": "106.7280", "type": "Ngoại thành"},
+        {"name": "Duong Ngo Quang Tham",                 "area": "TP. Thủ Đức, TP.HCM",             "lat": "10.6580", "lng": "106.7240", "type": "Nội thành"},
+        {"name": "Tp Ho Chi Minh Duong Nguyen Van Tao",  "area": "Huyện Nhà Bè, TP.HCM",             "lat": "10.6596", "lng": "106.7280", "type": "Ngoại thành"},
         # ── CORE: Bình Dương ──
-        {"name": "Hiệp Thành",                           "area": "TP. Thủ Dầu Một, Bình Dương",      "lat": "10.9923", "lng": "106.6580", "type": "Ngoại thành"},
+        {"name": "Hiep Thanh",                           "area": "TP. Thủ Dầu Một, Bình Dương",      "lat": "10.9923", "lng": "106.6580", "type": "Ngoại thành"},
         # ── CORE: Bà Rịa – Vũng Tàu ──
-        {"name": "Phước Hiệp",                           "area": "TP. Bà Rịa, BR-VT",                "lat": "10.5024", "lng": "107.1690", "type": "Ngoại thành"},
-        {"name": "Phường 7",                             "area": "TP. Vũng Tàu, BR-VT",              "lat": "10.3680", "lng": "107.0840", "type": "Ngoại thành"},
+        {"name": "Phuoc Hiep",                           "area": "TP. Bà Rịa, BR-VT",                "lat": "10.5024", "lng": "107.1690", "type": "Ngoại thành"},
+        {"name": "phuong 7",                             "area": "TP. Vũng Tàu, BR-VT",              "lat": "10.3680", "lng": "107.0840", "type": "Ngoại thành"},
         # ── BUFFER: Long An ──
-        {"name": "Long An Xã Đức Lập Hạ",                "area": "Tỉnh Long An",                     "lat": "10.9127", "lng": "106.4310", "type": "Vùng lân cận"},
-        {"name": "Long An Huyện Bến Lức",     "area": "Huyện Bến Lức, Long An",           "lat": "10.6400", "lng": "106.4800", "type": "Vùng lân cận"},
-        {"name": "Long An Huyện Cần Giuộc",   "area": "Huyện Cần Giuộc, Long An",         "lat": "10.6056", "lng": "106.6660", "type": "Vùng lân cận"},
+        {"name": "Long An xa Duc Lap Ha",                "area": "Tỉnh Long An",                     "lat": "10.9127", "lng": "106.4310", "type": "Vùng lân cận"},
+        {"name": "Long An tt van hoa huyen Ben Luc",     "area": "Huyện Bến Lức, Long An",           "lat": "10.6400", "lng": "106.4800", "type": "Vùng lân cận"},
+        {"name": "Long An TT van hoa huyen Can Giuoc",   "area": "Huyện Cần Giuộc, Long An",         "lat": "10.6056", "lng": "106.6660", "type": "Vùng lân cận"},
         # ── BUFFER: Tây Ninh ──
-        {"name": "Tay Ninh Thị Xã Tràng Bang",           "area": "TX. Trảng Bàng, Tây Ninh",         "lat": "11.0340", "lng": "106.3730", "type": "Vùng lân cận"},
-        {"name": "Tay Ninh Phường 3",        "area": "TP. Tây Ninh, Tây Ninh",           "lat": "11.3100", "lng": "106.0984", "type": "Vùng lân cận"},
+        {"name": "Tay Ninh thi xa Trang Bang",           "area": "TX. Trảng Bàng, Tây Ninh",         "lat": "11.0340", "lng": "106.3730", "type": "Vùng lân cận"},
+        {"name": "Tay Ninh phuong 3 tp Tay Ninh",        "area": "TP. Tây Ninh, Tây Ninh",           "lat": "11.3100", "lng": "106.0984", "type": "Vùng lân cận"},
     ]
 
     type_colors = {
@@ -938,7 +923,7 @@ def render_dashboard():
     TEAM = [
         {"name": "Dương Tiến Thành",       "role": "CEO & Data Lead",        "color": "#2563eb", "bg": "#dbeafe", "photo": "Thanh.jpg"},
         {"name": "Đinh Khắc Nhật Trường",  "role": "CEO & Backend Engineer",  "color": "#16a34a", "bg": "#dcfce7", "photo": "Truong.jpg"},
-        {"name": "Lê Thị Anh Thương",      "role": "CEO & Data Scientist",      "color": "#ea580c", "bg": "#ffedd5", "photo": "Thuong.jpg"},
+        {"name": "Lê Thị Anh Thương",      "role": "CEO & Frontend Dev",      "color": "#ea580c", "bg": "#ffedd5", "photo": "Thuong.jpg"},
         {"name": "Trần Công Vinh",          "role": "CEO & GIS Specialist",    "color": "#7e22ce", "bg": "#ede9fe", "photo": "Vinh.jpg"},
         {"name": "Đặng Quang Nhật",         "role": "CEO & AI Engineer",       "color": "#0891b2", "bg": "#cffafe", "photo": "Nhat.jpg"},
     ]
@@ -1012,10 +997,10 @@ def render_eda():
 
     st.markdown("""<div class="hero">
       <h1>Exploratory Data Analysis</h1>
-      <p>Phan tich sau tuong quan chi so o nhiem, phan bo AQI va bien thien theo tram quan trac</p>
+      <p>Phân tích dữ liệu khám phá - mối quan hệ giữa các chỉ số ô nhiễm, phân bố AQI và biến thiên theo trạm quan trắc</p>
     </div>""", unsafe_allow_html=True)
 
-    eda_mode = st.radio("Nguon du lieu EDA", ["🏙️ Toàn thành phố", "📍 Theo trạm"],
+    eda_mode = st.radio("Nguồn dữ liệu EDA", ["🏙️ Toàn thành phố", "📍 Theo trạm"],
                         horizontal=True, label_visibility="visible", key="eda_mode")
 
     fe1, fe2 = st.columns([1, 1])
@@ -1045,3 +1030,208 @@ def render_eda():
           <span class="stn-sel-name">{chosen}</span>
         </div>""", unsafe_allow_html=True)
         render_station_eda(df_sa, chosen, df_ca)
+
+# ══════════════════════════════════════════════════════════════════
+#  FORECAST TAB
+# ══════════════════════════════════════════════════════════════════
+FORECAST_CSV = "output_all_stations_2022_2026/hcmc_imputed_output_v2_20260318.csv"
+FORECAST_HORIZON = 5
+
+AQI_BANDS_FC = [
+    (0,   50,  "#16a34a", "Tốt"),
+    (51,  100, "#ca8a04", "Trung bình"),
+    (101, 150, "#ea580c", "Không tốt"),
+    (151, 200, "#dc2626", "Không lành mạnh"),
+    (201, 300, "#7e22ce", "Rất không lành mạnh"),
+    (301, 999, "#7f1d1d", "Nguy hiểm"),
+]
+
+def _aqi_color_fc(v):
+    try:
+        val = float(v)
+    except Exception:
+        return "#a0aec0", "N/A"
+    for lo, hi, c, l in AQI_BANDS_FC:
+        if lo <= val <= hi:
+            return c, l
+    return "#7f1d1d", "Nguy hiểm"
+
+
+@st.cache_data(ttl=3600)
+def _load_imputed_csv():
+    df = pd.read_csv(FORECAST_CSV)
+    df["date"] = pd.to_datetime(df["date"])
+    if "PM2,5" in df.columns and "PM2.5" not in df.columns:
+        df = df.rename(columns={"PM2,5": "PM2.5"})
+    return df
+
+
+def render_forecast():
+    from forecast_logic import load_all_models, predict_station, get_history_for_chart, TARGETS, load_metadata
+    import plotly.graph_objects as go
+
+    st.markdown("""<div class="hero">
+      <h1>🔮 Dự báo chất lượng không khí</h1>
+      <p>XGBoost · Multi-output · Dự báo 5 ngày tới cho 12 trạm quan trắc</p>
+    </div>""", unsafe_allow_html=True)
+
+    with st.spinner("Đang tải model..."):
+        models = load_all_models()
+
+    if not models:
+        st.error("Chưa có model. Vui lòng chạy: `python train_forecast.py`")
+        return
+
+    with st.spinner("Đang tải dữ liệu..."):
+        try:
+            df_full = _load_imputed_csv()
+        except Exception as e:
+            st.error(f"Không tải được dữ liệu: {e}")
+            return
+
+    sel_stn = st.selectbox("📍 Chọn trạm quan trắc", sorted(models.keys()), key="fc_station")
+
+    with st.spinner("Đang tính dự báo..."):
+        df_hist = get_history_for_chart(sel_stn, df_full, days=30)
+        df_pred = predict_station(sel_stn, df_full, models, horizon=FORECAST_HORIZON)
+
+    if df_pred is None or df_pred.empty:
+        st.warning("Không có dữ liệu dự báo.")
+        return
+
+    # Chuẩn hoá df_hist
+    df_hist = df_hist.copy()
+    df_hist["AQI"] = df_hist["AQI"].ffill().bfill().fillna(0)
+    for col in TARGETS:
+        if col in df_hist.columns:
+            df_hist[col] = df_hist[col].ffill().bfill().fillna(0)
+
+    # ── KPI cards ──
+    st.markdown('<p class="sec-head" style="margin-top:8px">📅 Dự báo 5 ngày tới</p>',
+                unsafe_allow_html=True)
+    kpi_html = '<div style="display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-bottom:16px">'
+    for _, row in df_pred.iterrows():
+        aqi_val = float(row["AQI"])
+        color, label = _aqi_color_fc(aqi_val)
+        date_str = pd.Timestamp(row["date"]).strftime("%a\n%d/%m")
+        kpi_html += f"""
+        <div style="background:#fff;border:1px solid #e2e8f0;border-radius:12px;
+             padding:14px 10px;text-align:center;box-shadow:0 1px 3px rgba(0,0,0,0.05)">
+          <div style="font-size:11px;font-weight:700;color:#64748b;white-space:pre-line;margin-bottom:6px">{date_str}</div>
+          <div style="font-size:32px;font-weight:800;font-family:'JetBrains Mono',monospace;color:#1a202c;line-height:1">{aqi_val:.0f}</div>
+          <div style="font-size:10px;font-weight:700;color:{color};margin-top:4px;padding:2px 8px;border-radius:10px;
+               background:{color}18;border:1px solid {color}30;display:inline-block">{label}</div>
+          <div style="font-size:10px;color:#94a3b8;margin-top:8px">PM2.5: <b>{float(row['PM2.5']):.1f}</b></div>
+        </div>"""
+    kpi_html += '</div>'
+    st.markdown(kpi_html, unsafe_allow_html=True)
+
+    # ── Chuẩn bị dữ liệu chart ──
+    connect_date = df_hist["date"].iloc[-1]
+    connect_aqi  = float(df_hist["AQI"].iloc[-1])
+    today_str    = pd.Timestamp(connect_date).strftime("%Y-%m-%d")
+
+    pred_dates = [connect_date] + df_pred["date"].tolist()
+    pred_aqi   = [connect_aqi]  + [float(v) for v in df_pred["AQI"]]
+
+    # ── Chart AQI ──
+    fig = go.Figure()
+    for lo, hi, c, _ in AQI_BANDS_FC:
+        fig.add_hrect(y0=lo, y1=min(hi, 300), fillcolor=c, opacity=0.05, layer="below", line_width=0)
+
+    fig.add_trace(go.Scatter(
+        x=df_hist["date"], y=df_hist["AQI"],
+        name="Lịch sử", mode="lines", line=dict(color="#2563eb", width=2)))
+
+    fig.add_trace(go.Scatter(
+        x=pred_dates, y=pred_aqi,
+        name="Dự báo", mode="lines+markers",
+        line=dict(color="#f97316", width=2.5, dash="dot"),
+        marker=dict(size=8, color="#f97316", line=dict(color="#fff", width=2))))
+
+    # Uncertainty band ±15%
+    upper = [v * 1.15 for v in pred_aqi]
+    lower = [max(0, v * 0.85) for v in pred_aqi]
+    fig.add_trace(go.Scatter(
+        x=pred_dates + pred_dates[::-1], y=upper + lower[::-1],
+        fill="toself", fillcolor="rgba(249,115,22,0.10)",
+        line=dict(width=0), showlegend=False, hoverinfo="skip"))
+
+    # Đường "Hôm nay" dùng add_shape thay vi add_vline
+    fig.add_shape(type="line",
+        x0=today_str, x1=today_str, y0=0, y1=1, xref="x", yref="paper",
+        line=dict(dash="dash", color="#94a3b8", width=1.5))
+    fig.add_annotation(x=today_str, y=1, xref="x", yref="paper",
+        text="Hôm nay", showarrow=False, yanchor="bottom",
+        font=dict(size=10, color="#64748b"))
+
+    fig.update_layout(
+        paper_bgcolor="#ffffff", plot_bgcolor="#f8fafc",
+        font=dict(family="Inter,sans-serif", color="#4a5568", size=11),
+        margin=dict(l=8, r=8, t=24, b=8),
+        hovermode="x unified", yaxis_title="AQI", height=380,
+        xaxis=dict(gridcolor="#e2e8f0", zeroline=False, tickfont=dict(size=9, color="#718096")),
+        yaxis=dict(gridcolor="#e2e8f0", zeroline=False, tickfont=dict(size=9, color="#718096")),
+        legend=dict(bgcolor="rgba(255,255,255,0.95)", bordercolor="#e2e8f0", borderwidth=1, font=dict(size=10)))
+
+    with st.container(border=True):
+        st.markdown('<p class="cp-title">📈 AQI — 30 ngày qua + dự báo 5 ngày tới</p>', unsafe_allow_html=True)
+        st.plotly_chart(fig, use_container_width=True, config=dict(displayModeBar=False), key="fc_aqi_chart")
+
+    # ── Pollutant charts ──
+    st.markdown('<p class="sec-head">🧪 Chi tiết từng chỉ số</p>', unsafe_allow_html=True)
+    POLL_COLORS = {"PM2.5":"#ef4444","PM10":"#f97316","CO":"#eab308","SO2":"#22c55e","O3":"#3b82f6","NO2":"#8b5cf6"}
+    POLL_UNITS  = {"PM2.5":"µg/m³","PM10":"µg/m³","CO":"µg/m³","SO2":"ppb","O3":"ppb","NO2":"ppb"}
+
+    for row_i in range(0, len(TARGETS), 2):
+        cols = st.columns(2)
+        for ci, col_name in enumerate(TARGETS[row_i:row_i+2]):
+            with cols[ci]:
+                with st.container(border=True):
+                    color = POLL_COLORS[col_name]
+                    unit  = POLL_UNITS[col_name]
+                    st.markdown(
+                        f'<p class="cp-title" style="color:{color}">{col_name} '
+                        f'<span style="font-weight:400;color:#94a3b8;font-size:11px">({unit})</span></p>',
+                        unsafe_allow_html=True)
+
+                    hist_y = df_hist[col_name].ffill().bfill().fillna(0)
+                    last_v = float(hist_y.iloc[-1])
+                    pred_y = [float(v) for v in df_pred[col_name]]
+                    px_    = [connect_date] + df_pred["date"].tolist()
+                    py_    = [last_v] + pred_y
+
+                    fig2 = go.Figure()
+                    fig2.add_trace(go.Scatter(
+                        x=df_hist["date"], y=hist_y, mode="lines",
+                        line=dict(color=color, width=1.8), showlegend=False))
+                    fig2.add_trace(go.Scatter(
+                        x=px_, y=py_, mode="lines+markers",
+                        line=dict(color=color, width=2, dash="dot"),
+                        marker=dict(size=6, color=color, line=dict(color="#fff", width=1.5)),
+                        showlegend=False))
+                    fig2.add_shape(type="line",
+                        x0=today_str, x1=today_str, y0=0, y1=1, xref="x", yref="paper",
+                        line=dict(dash="dash", color="#cbd5e0", width=1))
+                    fig2.update_layout(
+                        paper_bgcolor="#ffffff", plot_bgcolor="#f8fafc",
+                        margin=dict(l=4, r=4, t=4, b=4), height=200,
+                        showlegend=False, hovermode="x unified",
+                        xaxis=dict(gridcolor="#e2e8f0", zeroline=False, tickfont=dict(size=8, color="#718096")),
+                        yaxis=dict(gridcolor="#e2e8f0", zeroline=False,
+                                   tickfont=dict(size=8, color="#718096"), title=unit))
+                    st.plotly_chart(fig2, use_container_width=True,
+                                    config=dict(displayModeBar=False),
+                                    key=f"fc_{col_name}_{sel_stn}")
+
+    # ── Model metrics ──
+    with st.expander("📊 Độ chính xác model (Validation set)"):
+        meta = load_metadata()
+        if sel_stn in meta:
+            m_info = meta[sel_stn]
+            st.markdown(f'<p class="cp-sub">Train: {m_info["n_train"]} ngày · Data đến {m_info["date_max"]}</p>',
+                        unsafe_allow_html=True)
+            rows = [{"Chỉ số": col, "MAE": round(m["mae"], 2), "RMSE": round(m["rmse"], 2)}
+                    for col, m in m_info["metrics"].items()]
+            st.dataframe(pd.DataFrame(rows).set_index("Chỉ số"), use_container_width=True)
+        st.caption("Đơn vị: µg/m³ cho PM2.5/PM10/CO, ppb cho SO2/O3/NO2")
