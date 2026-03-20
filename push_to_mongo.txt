@@ -1,0 +1,3 @@
+& "D:\Lưu\DAP391m\mongodb-database-tools-windows-x86_64-100.14.1\bin\mongoimport.exe" --uri "mongodb+srv://duongtienthanh11032006_db_user:1@airqualitystatistics.gxetykt.mongodb.net/air_quality_daily_all_stations?appName=AirQualityStatistics" --collection air_daily --type csv --file "D:\Lưu\DAP391m\output_all_stations_2022_2026\aqi_daily_allstations_2022_2026.csv" --headerline
+
+& "D:\Lưu\DAP391m\mongodb-database-tools-windows-x86_64-100.14.1\bin\mongoimport.exe" --uri "mongodb+srv://duongtienthanh11032006_db_user:1@airqualitystatistics.gxetykt.mongodb.net/air_quality_daily_all_stations?appName=AirQualityStatistics" --collection air_daily_2 --type json --file "D:\Lưu\DAP391m\output_all_stations_2022_2026\raw_debug_allstations_2022_2026.json" 
